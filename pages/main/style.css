@@ -1,0 +1,131 @@
+/*Reset*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+ul{list-style: none;}
+a{text-decoration: none;}
+/*Reset*/
+
+
+/* Header START*/
+
+.header{
+    background-color: #000000;
+    width: 1600px auto;
+    height: 80px;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+}
+
+.header-wrap{
+    background-color: #000000;
+    backdrop-filter: blur(2px);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.header-logo-wrap{
+    background-color: #000000;
+    display: block;
+    border: 1px solid #FFFFFF;
+    border-radius: 2px;
+    margin: 14px 63px 14px 220px;
+    width: 82px;
+    height: 52px;
+    left: 0px;
+    top: 0px;
+}
+
+.header-logo-wrap2{
+    margin: 3.55px 4.75px;
+}
+
+.text-logo{
+    background-color: #000000;
+    color: #FFFFFF;
+    font-family: 'Roboto';
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19.0145px;
+    line-height: 120%;
+}
+
+.bamboo{
+    background-image: url(../../assets/icons/bamboo.svg) no-repeat left 5px;
+    position: relative;
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.ul-nav{
+    color: white;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.li-nav{
+    color: #FFFFFF;
+    margin: 29px 58px 29px auto;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+}
+
+.li-nav:hover{
+    background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+.header-desiner{
+    color: #FFFFFF;
+    margin: 29px 220px 29px 0;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+}
+
+
+/* Header END*/
+
+.main{
+    background-color: red;
+}
