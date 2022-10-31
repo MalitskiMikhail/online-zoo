@@ -1,0 +1,316 @@
+/*Reset*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+ul{list-style: none;}
+a{text-decoration: none;}
+/*Reset*/
+/*Fonts START*/
+
+body{
+    font-family: 'Roboto';
+}
+
+/*Fonts END*/
+/*Body Start*/
+
+body{
+    background: url(../../assets/images/Giant_Panda.jpg) no-repeat;
+    background-size: 100%;
+    size: 1600px;
+}
+
+/*Body END*/
+/* Header START*/
+
+.header{
+    background-color: #000000;
+    width: 1600px auto;
+    height: 80px;
+    margin: 0px auto;
+    padding: 0;
+    display: flex;
+    margin-bottom: 12px;
+
+}
+
+.header-wrap{
+    background-color: #000000;
+    backdrop-filter: blur(2px);
+    max-width: 1160px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 220px 0px 220px;
+}
+
+.header-logo-wrap{
+    background-color: #000000;
+    display: relative;
+    border: 1px solid #FFFFFF;
+    border-radius: 2px;
+    margin: 14px 63px 14px 0px;
+    width: 82px;
+    height: 52px;
+}
+
+.header-logo-wrap2{
+    margin: 3.55px 4.75px;
+}
+
+.text-logo1{
+    color: #FFFFFF;
+    font-family:'Roboto';
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19.0145px;
+    line-height: 120%;
+    position: relative;
+}
+
+.text-logo2{
+    color: #FFFFFF;
+    font-family:'Roboto';
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19.0145px;
+    line-height: 120%;
+    position: relative;
+}
+
+.text-logo2::before{
+    content: url('../../assets/icons/bamboo.svg');
+    position: absolute;
+    margin: -3px -5.5px;
+}
+
+.ul-nav{
+    color: white;
+    display: flex;
+    white-space: nowrap;
+    align-items: center;
+}
+
+.li-nav{
+    color: #FFFFFF;
+    margin: 29px 58px 29px 0px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+}
+
+.li-nav:hover{
+    background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.header-desiner{
+    color: #FFFFFF;
+    margin: 29px 220px 29px 0px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    display: flex;
+    justify-content: flex-end;
+    white-space: nowrap;
+}
+
+/* Header END */
+/* Intro START */
+
+.main{
+    margin: 0 auto;
+}
+
+.intro{
+    margin: 0px auto;
+    padding: 0px;
+    max-width: 1600px;
+    height: 688px;
+}
+
+.wrapper{
+    max-width: 1160px;
+    margin: 0px 220px auto 220px;
+    padding: 0px;
+}
+
+.eclips{
+    position: relative;
+    margin: 0px 108px 0px 587px;
+    size: 465px 465px;
+}
+
+#eclips-img{
+}
+
+.watch-wrap{
+    font-family: 'Roboto';
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 106.496px;
+    line-height: 75%;
+    text-align: center;
+    text-transform: uppercase;
+    width: 500.31px;
+    height: 400px;
+    position: absolute;
+    padding: 0px;
+    margin: 74px auto auto 73px;
+}
+
+#yello{
+    color: #FFEE2E;
+}
+
+.button-watch-online-wrap{
+    background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+    border-radius: 25px;
+    margin: 69px 100px 100px 763px;
+    width: 292px;
+    height: 54px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+}
+
+#watch-online-button{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin: 0 auto;
+}
+
+/* Intro END */
+/* Backstage START */
+
+.Backstage{
+    margin-top: 140px;
+    padding: 0px;
+}
+/*
+.flower1{
+    position: absolute;
+    right: 0px;
+}
+*/
+.Backstage-wrap{
+    margin: 0px 0px 140px;
+    padding: 0px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.img-ded{
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+.text-backstage-section{
+    justify-content: flex-end;
+    margin-left: 87px;
+    width: 465px;
+    height: 403px;
+}
+
+
+.backstage-header{
+    width: 465px;
+    height: 116px;
+    margin-bottom: 20px;
+}
+
+#backstage-header-text{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 120%;
+    color: #333B41;
+}
+
+.backstage-description{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    width: 465px;
+    height: 42px;
+    color: #333B41;
+}
+
+.how-it-works-header{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 120%;
+    color: #333B41;
+    margin: 54px auto 34px 0px;
+}
+
+.how-it-works-description{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    margin: 0px;
+}
+
+/* Backstage END */
+/* Animals Start */
+
+.animals{
+
+}
+
+.animals-wrap{
+    display: grid;
+    grid-template-columns: 396px 396px 366px;
+    grid-template-rows: 446px 446px 446px;
+}
+
+.animals-wrap-pic{
+}
+
+.animal-pic{
+    width: 366px;
+    height: 366px;
+}
+
+
+
+/* Animals END */
