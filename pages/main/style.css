@@ -44,7 +44,7 @@ body{
     background-color: #000000;
     width: 1600px auto;
     height: 80px;
-    margin: 0;
+    margin: 0px auto;
     padding: 0;
     display: flex;
     margin-bottom: 12px;
@@ -140,12 +140,18 @@ body{
     white-space: nowrap;
 }
 
-/* Header END*/
-/* Intro START*/
+/* Header END */
+/* Intro START */
+
+.main{
+    margin: 0 auto;
+}
 
 .intro{
-    margin: 0px;
+    margin: 0px auto;
     padding: 0px;
+    max-width: 1600px;
+    height: 688px;
 }
 
 .wrapper{
@@ -158,11 +164,9 @@ body{
     position: relative;
     margin: 0px 108px 0px 587px;
     size: 465px 465px;
-    z-index: 0;
 }
 
 #eclips-img{
-    z-index: 0;
 }
 
 .watch-wrap{
@@ -178,7 +182,6 @@ body{
     height: 400px;
     position: absolute;
     padding: 0px;
-    z-index: 1;
     margin: 74px auto auto 73px;
 }
 
@@ -189,11 +192,12 @@ body{
 .button-watch-online-wrap{
     background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
     border-radius: 25px;
-    margin: 69px 100px auto auto;
+    margin: 69px 100px 100px 763px;
     width: 292px;
     height: 54px;
     display: flex;
     align-items: center;
+    position: absolute;
 }
 
 #watch-online-button{
@@ -207,4 +211,106 @@ body{
     margin: 0 auto;
 }
 
-/* Intro END*/
+/* Intro END */
+/* Backstage START */
+
+.Backstage{
+    margin-top: 140px;
+    padding: 0px;
+}
+/*
+.flower1{
+    position: absolute;
+    right: 0px;
+}
+*/
+.Backstage-wrap{
+    margin: 0px 0px 140px;
+    padding: 0px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.img-ded{
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+.text-backstage-section{
+    justify-content: flex-end;
+    margin-left: 87px;
+    width: 465px;
+    height: 403px;
+}
+
+
+.backstage-header{
+    width: 465px;
+    height: 116px;
+    margin-bottom: 20px;
+}
+
+#backstage-header-text{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 120%;
+    color: #333B41;
+}
+
+.backstage-description{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    width: 465px;
+    height: 42px;
+    color: #333B41;
+}
+
+.how-it-works-header{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 120%;
+    color: #333B41;
+    margin: 54px auto 34px 0px;
+}
+
+.how-it-works-description{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    margin: 0px;
+}
+
+/* Backstage END */
+/* Animals Start */
+
+.animals{
+
+}
+
+.animals-wrap{
+    display: grid;
+    grid-template-columns: 396px 396px 366px;
+    grid-template-rows: 446px 446px 446px;
+}
+
+.animals-wrap-pic{
+}
+
+.animal-pic{
+    width: 366px;
+    height: 366px;
+}
+
+
+
+/* Animals END */
