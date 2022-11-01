@@ -145,6 +145,9 @@ body{
 
 .main{
     margin: 0 auto;
+    background: url(../../assets/images/flower_foto1.png) no-repeat;
+    background-position: right 0px top 768px;
+    background-size: 200px 605px;
 }
 
 .intro{
@@ -217,6 +220,7 @@ body{
 .Backstage{
     margin-top: 140px;
     padding: 0px;
+
 }
 /*
 .flower1{
@@ -304,13 +308,27 @@ body{
 }
 
 .animals-wrap-pic{
+    position: relative;
+    width: 366px;
+    height: 426px;
+    border-width: 1px;
+    border-style: solid;
+    border-image: linear-gradient(to right, #FB772A, #FE8E15) 1;
+    border-radius: 5px;
+}
+.animals-wrap-pic-gradient{
+    background-color: #FFFFFF;
+    border-radius: 5px;
 }
 
 .animal-pic{
     width: 366px;
     height: 366px;
+    border-radius: 5px;
 }
 
+.cap{
+}
 
 
 /* Animals END */
