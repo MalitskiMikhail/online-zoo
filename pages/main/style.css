@@ -33,8 +33,10 @@ body{
 
 body{
     background: url(../../assets/images/Giant_Panda.jpg) no-repeat;
-    background-size: 100%;
-    size: 1600px;
+    background-position: top center;
+    max-width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /*Body END*/
@@ -42,7 +44,7 @@ body{
 
 .header{
     background-color: #000000;
-    width: 1600px auto;
+    width: 1600px;
     height: 80px;
     margin: 0px auto;
     padding: 0;
@@ -87,21 +89,11 @@ body{
     position: relative;
 }
 
-.text-logo2{
-    color: #FFFFFF;
-    font-family:'Roboto';
-    text-align: center;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 19.0145px;
-    line-height: 120%;
-    position: relative;
-}
 
-.text-logo2::before{
+.text-logo1::after{
     content: url('../../assets/icons/bamboo.svg');
     position: absolute;
-    margin: -3px -5.5px;
+    margin: -3px -57px;
 }
 
 .ul-nav{
@@ -146,8 +138,15 @@ body{
 .main{
     margin: 0 auto;
     background: url(../../assets/images/flower_foto1.png) no-repeat;
-    background-position: right 0px top 768px;
+    background-position: right 0px top 688px;
     background-size: 200px 605px;
+}
+
+.wrapper{
+    max-width: 1160px;
+    width: auto;
+    margin: 0px 220px 0px 220px;
+    padding: 0px;
 }
 
 .intro{
@@ -157,19 +156,10 @@ body{
     height: 688px;
 }
 
-.wrapper{
-    max-width: 1160px;
-    margin: 0px 220px auto 220px;
-    padding: 0px;
-}
-
 .eclips{
     position: relative;
     margin: 0px 108px 0px 587px;
     size: 465px 465px;
-}
-
-#eclips-img{
 }
 
 .watch-wrap{
@@ -192,10 +182,9 @@ body{
     color: #FFEE2E;
 }
 
-.button-watch-online-wrap{
+.button-wrap{
     background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
     border-radius: 25px;
-    margin: 69px 100px 100px 763px;
     width: 292px;
     height: 54px;
     display: flex;
@@ -203,7 +192,11 @@ body{
     position: absolute;
 }
 
-#watch-online-button{
+.button-wrap-watch{
+    margin: 69px 100px 100px 763px;
+}
+
+.button{
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
@@ -229,7 +222,7 @@ body{
 }
 */
 .Backstage-wrap{
-    margin: 0px 0px 140px;
+    margin: 0px 0px 180px;
     padding: 0px;
     display: flex;
     flex-wrap: nowrap;
@@ -295,16 +288,17 @@ body{
 }
 
 /* Backstage END */
-/* Animals Start */
+/* Animals START */
 
-.animals{
-
+.animals-full-wrap{
+    width: 1600px;
+    height: 1106px;
 }
 
 .animals-wrap{
     display: grid;
     grid-template-columns: 396px 396px 366px;
-    grid-template-rows: 446px 446px 446px;
+    grid-template-rows: 446px 426px;
 }
 
 .animals-wrap-pic{
@@ -330,5 +324,196 @@ body{
 .cap{
 }
 
+.animal-button-wrap{
+    width: 1600px;
+    height: 234px;
+}
 
+.button-wrap-choose{
+    margin: 80px 431px 100px 651px;
+    align-items: center;
+    position: relative;
+}
+/*
+.ellipse_little-wrap{
+    width: 62px;
+    height: 62px;
+}
+
+.ellipse_little-wrap-left{
+    margin: 100px 50px 400px 139px;
+    position: absolute;
+}
+*/
+.palm{
+    position: absolute;
+    width: 292px;
+    top: 2149px;
+
+}
+
+.strelitzia{
+    position: absolute;
+    width: 368x;
+    left: 1232px;
+    top: 2334px;
+}
 /* Animals END */
+/*Friend Start*/
+.friend-full-wrap{
+    background: linear-gradient(315.75deg, rgba(254, 210, 144, 0.7) 30.06%, #FEBDAB 100.95%, rgba(254, 210, 144, 0.7) 106.36%), linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%), linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%);
+    opacity: 0.9;
+    height: 1004px;
+    margin: 0px;
+    position: static;
+    padding-top: 69px;
+}
+
+.friend-wrap-center{
+    background: rgba(253, 253, 255, 0.52);
+    backdrop-filter: blur(2px);
+    border-radius: 20px;
+    height: 835px;
+    width: 1160px;
+    margin: 0px 220px 0px 220px;
+    position: static;
+}
+
+/*Friend END*/
+/*Testimonials START*/
+
+.testimonials{
+    height: 919px;
+    margin: 0px;
+}
+
+/*Testimonials END */
+/* Footer START */
+
+.footer{
+    background: #111115;
+    height: 443px;
+    position: absolute;
+    width: 1600px;
+}
+
+.footer-logo-wrap{
+    position: relative;
+    width: 82px;
+    height: 52px;
+    border: 0.5px solid #FFFFFF;
+    border-radius: 2px;
+    margin-bottom: 68px;
+    margin-top: 41px;
+
+}
+
+.footer-logo-wrap2{
+    margin: 0.55px 4.75px 6.55px;
+}
+
+.footer-logo-text{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19.0145px;
+    line-height: 120%;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+
+.footer-logo-text::after{
+    content: url('../../assets/icons/bamboo.svg');
+    position: absolute;
+    margin: -3px -57px;
+}
+
+.footer-button-wrap{
+    width: 298px;
+    height: 54px;
+    background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.footer-social-icons{
+    margin: 44px auto 50px 0px;
+    position: relative;
+}
+
+.footer-social-icon{
+    position: relative;
+}
+
+.footer-social-icon-wrap{
+    display: flex;
+    height: 26px;
+    width: 111px;
+    vertical-align: middle;
+    margin-bottom: 10px;
+}
+
+.footer-icon-ellipse{
+    margin-right:12px;
+}
+
+.footer-social-icon{
+    position: absolute;
+}
+
+.footer-facebook-icon{
+    width: 8px;
+    margin: 5px 9px 5px 9px;
+}
+.footer-twitter-icon{
+    width: 16px;
+    margin: 6px 5px 6px 5px;
+}
+.footer-insta-icon{
+    width: 16px;
+    margin: 5px;
+}
+
+.footer-youtube-icon{
+    width: 18px;
+    margin: 6px 4px 7.01px 4px;
+}
+
+
+.footer-social-icon-text{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #FFFFFF;
+    margin: 2.5px 0px 2.5px 0px;
+}
+
+.footer-nav-wrap{
+    position:relative;
+}
+
+.footer-ul-nav{
+    color: white;
+    display: flex;
+    white-space: nowrap;
+    align-items: center;
+}
+
+.footer-li-nav{
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+}
+/* Footer END*/
+/* Hovers START*/
+
+a:hover{
+}
+
+/*Hovers END*/
