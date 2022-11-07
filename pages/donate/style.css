@@ -1,0 +1,376 @@
+/*Reset*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+ul{list-style: none;}
+a{text-decoration: none;}
+/*Reset*/
+/*Fonts START*/
+
+body{
+    font-family: 'Roboto';
+}
+
+/*Fonts END*/
+/*Body Start*/
+
+body{
+    max-width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.button{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin: 0 auto;
+}
+
+.wrapper{
+    max-width: 1160px;
+    width: auto;
+    margin: 0px 220px 0px 220px;
+    padding: 0px;
+}
+
+/*Body END*/
+/* Header START*/
+
+.header{
+    background-color: #000000;
+    width: 1600px;
+    height: 80px;
+    margin: 0px auto;
+    padding: 0;
+    display: flex;
+    margin-bottom: 0px;
+
+}
+
+.header-wrap{
+    background-color: #000000;
+    backdrop-filter: blur(2px);
+    max-width: 1160px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 220px 0px 220px;
+}
+
+.header-logo-wrap{
+    background-color: #000000;
+    display: relative;
+    border: 1px solid #FFFFFF;
+    border-radius: 2px;
+    margin: 14px 63px 14px 0px;
+    width: 82px;
+    height: 52px;
+}
+
+.header-logo-wrap2{
+    margin: 3.55px 4.75px;
+}
+
+.text-logo1{
+    color: #FFFFFF;
+    font-family:'Roboto';
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19.0145px;
+    line-height: 120%;
+    position: relative;
+}
+
+
+.text-logo1::after{
+    content: url('../../assets/icons/bamboo.svg');
+    position: absolute;
+    margin: -3px -57px;
+}
+
+.ul-nav{
+    color: white;
+    display: flex;
+    white-space: nowrap;
+    align-items: center;
+}
+
+.li-nav{
+    color: #FFFFFF;
+    margin: 29px 58px 29px 0px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+}
+
+.li-nav:hover{
+    background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.header-desiner{
+    color: #FFFFFF;
+    margin: 29px 220px 29px 0px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    display: flex;
+    justify-content: flex-end;
+    white-space: nowrap;
+}
+.panda-bg{
+    margin: 0px;
+    height: 390px;
+}
+
+/* Header END */
+
+.section-wrapper{
+    height: 1482px;
+    min-width: 1600px;
+    background: linear-gradient(315.75deg, rgba(254, 210, 144, 0.7) 30.06%, #FEBDAB 100.95%, rgba(254, 210, 144, 0.7) 106.36%), linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%), linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%);
+    margin: 0px;
+}
+
+/* Footer START */
+
+.footer{
+    background: #111115;
+    height: 443px;
+    position: absolute;
+    width: 1600px;
+    display: inline-block;
+}
+
+.footer-wrapper{
+    display: flex;
+    flex-wrap: nowrap;
+    width: 1160px;
+    height: 443px;
+}
+
+/* Footer LEFT START*/
+
+.footer-left{
+    position: relative;
+    width: 399px;
+    margin: 0px;
+}
+
+.footer-logo-wrap{
+    position: relative;
+    width: 82px;
+    height: 52px;
+    border: 0.5px solid #FFFFFF;
+    border-radius: 2px;
+    margin-bottom: 68px;
+    margin-top: 41px;
+
+}
+
+.footer-logo-wrap2{
+    margin: 0.55px 4.75px 6.55px;
+}
+
+.footer-logo-text{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19.0145px;
+    line-height: 120%;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+
+.footer-logo-text::after{
+    content: url('../../assets/icons/bamboo.svg');
+    position: absolute;
+    margin: -3px -57px;
+}
+
+.footer-button-wrap{
+    width: 298px;
+    height: 54px;
+    background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.footer-social-icons{
+    margin: 44px auto 50px 0px;
+    position: relative;
+}
+
+.footer-social-icon{
+    position: relative;
+}
+
+.footer-social-icon-wrap{
+    display: flex;
+    height: 26px;
+    width: 111px;
+    vertical-align: middle;
+    margin-bottom: 10px;
+}
+
+.footer-icon-ellipse{
+    margin-right:12px;
+}
+
+.footer-social-icon{
+    position: absolute;
+}
+
+.footer-facebook-icon{
+    width: 8px;
+    margin: 5px 9px 5px 9px;
+}
+.footer-twitter-icon{
+    width: 16px;
+    margin: 6px 5px 6px 5px;
+}
+.footer-insta-icon{
+    width: 16px;
+    margin: 5px;
+}
+
+.footer-youtube-icon{
+    width: 18px;
+    margin: 6px 4px 7.01px 4px;
+}
+
+.footer-social-icon-text{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #FFFFFF;
+    margin: 2.5px 0px 2.5px 0px;
+}
+
+/* Footer LEFT END*/
+/* Footer MID START*/
+
+.footer-mid{
+    position: absolute;
+    margin: 0px 399px 0px 399px;
+}
+
+.footer-nav-wrap{
+    display:flex;
+    width: 332px;
+    height: 22px;
+    margin: 371px 32px 50px 0px;
+}
+
+.footer-ul-nav{
+    color: white;
+    display: flex;
+    white-space: nowrap;
+    align-items: center;
+}
+
+.footer-li-nav{
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    margin-right: 58px;
+}
+
+.footer-li-nav :last-child {
+    margin-right: 0px;
+}
+
+/* Footer MID END*/
+/* Footer RIGHT START*/
+.footer-right{
+    position: absolute;
+    width: 367px;
+    height: 443px;
+    margin: 0px 0px 0px 793px;
+}
+
+.footer-right-subscribe-wrap{
+    height: 85px;
+    margin-top: 40px;
+}
+
+.footer-right-subscribe-header{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 120%;
+    color: #FFFFFF;
+}
+
+.footer-right-form-wrap{
+    position: relative;
+    width: 367px;
+    height: 42px;
+    margin-top: 14px
+}
+
+.email-wrap{
+
+}
+.footer-right-form-wrap-email{
+    border: 0.7px orange solid;
+    border-radius: 2px;
+    width: 228px;
+    height: 42px;
+}
+
+.email{
+    width: 211px;
+    height: 22px;
+    padding: 0px;
+    background-color: #111115;
+    border: 0px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #BDBDBD;
+    margin: 10px 7px 10px 10px;
+}
+
+
+/* Footer RIGHT END*/
+
+/* Footer END*/
