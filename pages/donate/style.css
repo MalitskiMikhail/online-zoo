@@ -801,6 +801,11 @@ input::-webkit-inner-spin-button {
     color:#FC8928;
 }
 
+.header-desiner > p > a:hover{
+    color: #F9804B;
+    transition: 1s;
+}
+
 .amount-another-label-button-wrap:hover{
     background: #c99c06;
     transition: 0.3s;
