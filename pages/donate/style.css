@@ -359,6 +359,7 @@ input[type="radio"]:checked {
     height: 10px;
     z-index: 1;
     cursor: pointer;
+    position: relative;
 }
 
 
@@ -824,6 +825,9 @@ input::-webkit-inner-spin-button {
 .amount-label:hover{
     color:#FC8928;
 }
+.amount-label:checked{
+    color:#FC8928;
+}
 
 .amount-another-field:focus{
     color: #0c1ec1;
@@ -865,24 +869,65 @@ input::-webkit-inner-spin-button {
     color: #BDBDBD;
 }
 
-.amount-input-dot-radio:checked+label::after,
-.amount-input-dot-radio:not(:checked)+label::after{
+.amount-input-dot-radio:hover::after {
     content: "";
-    position: absolute;
-    width: 40px;
-    height: 40px;
-    background: url('../../assets/images/roller_icon.png') no-repeat;
-    transition: 0.2s;
-    top: 10px;
-    left: 10px;
-    z-index: 2;
+        position: absolute;
+        width: 40px;
+        height: 40px;
+        top: -15px;
+        left: -15px;
+        background: url('../../assets/images/roller_icon.png') no-repeat;
+        opacity: 1;
+        z-index: 2;
+        transition: 0.8s  all ease;
+    }
+
+.amount-input-dot-radio:checked::after {
+        content: "";
+            position: absolute;
+            width: 40px;
+            height: 40px;
+            top: -15px;
+            left: -15px;
+            background: url('../../assets/images/roller_icon.png') no-repeat;
+            opacity: 1;
+            z-index: 2;
+            transition: 0.8s  all ease;
+        }
+
+
+.amount-line-money-wrap:hover::after{
+    content: "";
+        position: absolute;
+        width: 40px;
+        height: 40px;
+        top: -15px;
+        left: -15px;
+        background: url('../../assets/images/roller_icon.png') no-repeat;
+        opacity: 1;
+        transition: 0.8s  all ease;
+        z-index: 2;
 }
+
+.amount-line-money-wrap:checked::after{
+    content: "";
+        position: absolute;
+        width: 40px;
+        height: 40px;
+        top: -15px;
+        left: -15px;
+        background: url('../../assets/images/roller_icon.png') no-repeat;
+        opacity: 1;
+}
+
 
 /*Hover END*/
 /*Buttonns START*/
-.amount-input-dot-radio:active+label:after{
+.amount-input-dot-radio:active:after{
 background: url(../../assets/images/roller_icon.png) no-repeat;
 background-position: absolute;
 }
+
+
 
 /*Buttonns END*/
