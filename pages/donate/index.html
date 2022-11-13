@@ -76,6 +76,7 @@
                             </div>
                             <form action="">
                             <div class="amount-line-dot-wrap">
+
                                 <input class="amount-input-dot-radio" type="radio" id="amount-5000" value="5000" name="money">
                                 <input class="amount-input-dot-radio" type="radio" id="amount-2000" value="2000" name="money">
                                 <input class="amount-input-dot-radio" type="radio" id="amount-1000" value="1000" name="money" checked="checked">
@@ -84,11 +85,12 @@
                                 <input class="amount-input-dot-radio" type="radio" id="amount-100" value="100" name="money">
                                 <input class="amount-input-dot-radio" type="radio" id="amount-50" value="50" name="money">
                                 <input class="amount-input-dot-radio" type="radio" id="amount-25" value="25" name="money">
+                            </ul>
                             </div>
                             <div class="amount-line-money-wrap">
                                 <label class="amount-label" for="amount-5000" >$5000</label>
                                 <label class="amount-label" for="amount-2000" id="amount-label-2000">$2000</label>
-                                <label class="amount-label" for="amount-1000" id="amount-label-1000">$1000</label>
+                                <label class="amount-label" for="amount-1000" id="amount-label-1000" checked="checked">$1000</label>
                                 <label class="amount-label" for="amount-500" id="amount-label-500" >$500</label>
                                 <label class="amount-label" for="amount-250" id="amount-label-250">$250</label>
                                 <label class="amount-label" for="amount-100" id="amount-label-100">$100</label>
@@ -99,12 +101,12 @@
                         </div>
                         <div class="amount-another-wrap">
                             <div class="amount-another-field-wrap">
-                                <input class="amount-another-field" type="number" id="amount-another-field" placeholder="Another amount" min="0" max="9999" title="Max: 9999$">
+                                <input class="amount-another-field" type="number" id="amount-another-field" placeholder="Another amount" min="0" max="9999" step="1" title="Max: 9999$">
                             </div>
                             <div class="amount-donation-option">
                                     <input class="amount-monthly" type="radio" id="amount-monthly-input"  name="amount-monthly" value="email">
                                     <label for="amount-monthly-input" id="amount-monthly-label">Monthly</label>
-                                    <input class="amount-once" type="radio" checked="checked">
+                                    <input class="amount-once" type="radio" checked="checked" name="amount-monthly">
                                     <label for="amount-monthly-input" id="amount-once-label">Once</label>
                             </div>
                             <div class="amount-another-label-button-wrap">
@@ -146,7 +148,7 @@
                             <img class="footer-insta-icon footer-social-icon" src="../../assets/icons/insta-icon.svg" alt="insta-icon-icon">
                             <span class="footer-social-icon-text">Instagram</span>
                         </div>
-                        <div class="footer-social-icon-wrap">
+                        <div class="footer-social-icon-wrap footer-hover-ico">
                             <img class="footer-icon-ellipse" src="../../assets/icons/social-icon.svg" alt="icon-circle">
                             <img class="footer-youtube-icon footer-social-icon" src="../../assets/icons/youtube-icon.svg" alt="youtube-icon-icon">
                             <span class="footer-social-icon-text">YouTube</span>
