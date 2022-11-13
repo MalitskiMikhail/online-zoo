@@ -351,6 +351,7 @@ input[type="radio"]:checked {
     margin-top: 32px;
 }
 
+
 .amount-input-dot-radio{
     margin: 13px 120px 0px 0px;
     background: #FFEE2E;
@@ -824,6 +825,10 @@ input::-webkit-inner-spin-button {
     color:#FC8928;
 }
 
+.amount-another-field:focus{
+    color: #0c1ec1;
+}
+
 .footer-li-nav:hover{
     background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
     -webkit-background-clip: text;
@@ -860,4 +865,24 @@ input::-webkit-inner-spin-button {
     color: #BDBDBD;
 }
 
+.amount-input-dot-radio:checked+label::after,
+.amount-input-dot-radio:not(:checked)+label::after{
+    content: "";
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background: url('../../assets/images/roller_icon.png') no-repeat;
+    transition: 0.2s;
+    top: 10px;
+    left: 10px;
+    z-index: 2;
+}
+
 /*Hover END*/
+/*Buttonns START*/
+.amount-input-dot-radio:active+label:after{
+background: url(../../assets/images/roller_icon.png) no-repeat;
+background-position: absolute;
+}
+
+/*Buttonns END*/
